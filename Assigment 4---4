@@ -1,0 +1,16 @@
+public class VariableTypes {
+    int instanceVar = 30;        
+    static int staticVar = 50;   
+
+    void show() {
+        int localVar = 20;      
+        System.out.println("Local = " + localVar);
+        System.out.println("Instance = " + instanceVar);
+        System.out.println("Static = " + staticVar);
+    }
+
+    public static void main(String[] args) {
+        VariableTypes obj = new VariableTypes();
+        obj.show();
+    }
+}
